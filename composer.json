@@ -1,0 +1,23 @@
+{
+    "name": "fgh151/yii2-epochta",
+    "description": "Yii2 epochta integration",
+    "type": "yii2-extension",
+    "keywords": ["yii2","sms", "epochta"],
+    "homepage": "http://openitstudio.ru",
+    "require": {
+        "yiisoft/yii2": "*",
+        "ext-curl": "*"
+    },
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fgh151\\modules\\epochta\\": ""
+        }
+    }
+}
